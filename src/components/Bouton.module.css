@@ -1,0 +1,8 @@
+.Special,.NonSpecial {
+    text-align: center;
+    margin: 3px;
+
+}
+.Special {
+    background-color: aqua;
+}
