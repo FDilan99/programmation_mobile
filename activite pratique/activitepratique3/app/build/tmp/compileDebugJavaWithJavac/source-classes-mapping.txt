@@ -1,0 +1,8 @@
+com/example/miniprojet/BuildConfig.java
+ com.example.miniprojet.BuildConfig
+com/example/miniprojet/MainActivity.java
+ com.example.miniprojet.MainActivity
+ com.example.miniprojet.MainActivity$1
+ com.example.miniprojet.MainActivity$2
+ com.example.miniprojet.MainActivity$3
+ com.example.miniprojet.MainActivity$4
