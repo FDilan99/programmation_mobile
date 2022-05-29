@@ -1,0 +1,59 @@
+
+dans ce fichiers nous allons renseigner premierement le nom des participants, en suite donner les etapes pour mettre une aplications sur play
+stor.
+
+ce travail a ete fait en groupe et les membres du groupe sont  les suivants :
+membres du groupe
+NOMS                                                   MATRICULES
+FONGUIENG DILAN                                   CM-UDS-18SCI3312
+TCHAKOUNTIO NJOUNGUEP MARIE GISELE                CM-UDS-19SCI2258
+NDIA PAFOULIE IVAN BEJORES                        CM-UDS-19SCI0901
+ZEBAZE KAFACK BRYONESSE MABELLE                   CM-UDS-19SCI1430
+KAMGANG FOTSING ARNAULD IVAN                      CM-UDS-21SCI1762
+
+
+ETAPES A SUIVRE POUR METTRE UNE APPLICATION SUR PLAYSTOR :
+1. Le compte Google Publisher
+Pour pouvoir publier une application sur le Play Store, il est obligatoire de créer un compte développeurs Google Play. Les frais d’inscription sont un paiement unique de €25. Une partie des champs fournis lors de la création du compte, tel que le nom de saisi, apparaît sur le Store.
+
+2. Compilez et testez votre application
+Durant la production de votre application pour sa publication, vous devez configurer, compiler et tester la version "release". Cette version est une copie exacte de celle qui sera publiée dans le Play Store.
+
+La compilation de votre application est une étape obligatoire dans déroulement. Google met à disposition des outils tel que Android Studio pour vous aider. 
+
+Une fois la compilation terminée et avant de publier votre application, nous vous conseillons fortement de la tester. Ceci est essentiel au succès de votre application. Elle vous permet de vérifier sa qualité (tout fonctionne exactement comme il faut), sa performance ( est-elle aux normes de l'industrie et aux attentes des utilisateurs, est-ce que tous les bugs sont corrigés). Vous recevrez également de précieux commentaires de la part des utilisateurs, validant ou non vos idées sur votre application et vous permettant d’apporter les modifications nécessaires avant de la publier sur le Play Store.
+Si vous utilisez GoodBarber , un guide étape par étape sera à votre disposition pour vous permettre de compiler et tester la version AdHoc. 
+
+En testant cette version, vous pourrez vérifier que votre application fonctionne correctement et offre à vos utilisateurs une expérience intuitive et plaisante. Idéalement, vous devez la tester sur des appareils avec des tailles d'écrans différentes pour vous assurer que l'image s'adapte correctement à tous les formats.
+Cette étape de test est l'opportunité de peaufiner votre application et de procéder aux dernières modifications.
+
+3. Publiez votre application
+Une fois que vous avez testé votre application de manière approfondie, vous pouvez passer à l'étape suivante : la soumission et la publication sur le Play Store. 
+Sur votre console Google Play, cliquez sur “ Ajouter une nouvelle application” , après “ langue par défaut”. Il faut enfin choisir un titre pour votre application (celui qui apparaîtra dans le Store).
+Vous arriverez ensuite sur la fiche pour les informations sur le produit. C’est ici que vous allez fournir tous les informations qui apparaîtront dans Google Play. Le titre, la description courte et la description complète, les éléments graphiques, la catégorie, votre adresse mail et la politique de confidentialité sont obligatoires. 
+
+Certaines de ces informations jouent un rôle très important dans les classements de recherche du Play Store. 
+
+Le titre est le facteur le plus important. Il se doit d'être unique, clair et court ( les titres longs risquent d'être tronqués sur les petits écrans). 
+
+La description courte doit faire passer votre message le plus important, sans que vos utilisateurs n’aient besoin de cliquer sur “ plus”. Faite en sorte d’utiliser des mots-clés pertinents.
+
+Dans la description complète, décrivez de manière précise votre application en utilisant les bons mots-clés pour attirer l’attention de votre audience et mettre en évidence les fonctionnalités principales. 
+ 
+Maintenant que vous avez préparé le terrain pour enfin télécharger votre application, il est temps de télécharger votre fichier APK.
+Si vous n'êtes pas familier avec le fichier .apk, sachez que ce fichier est le résultat du développement de votre application. Android Package Kit (APK) est le format utilisé pour distribuer et installer des apps et les faire fonctionner sur des appareils Android. Sur votre Console Google Play, importez le dans l’onglet réservé à ce sujet.
+ 
+Et enfin la dernière étape avant la publication de notre application se situe dans l'onglet "Tarifs et disponibilité". Ici vous allez choisir les pays dans lesquels l'application sera disponible et si l'application est gratuite ou payante. Si vous souhaitez publier une application payante ou de de proposer des achats in-app, vous devez obligatoirement créer un compte marchand et le lier à votre compte Publisher. 
+Si toutes les étapes ont été faites correctement, votre application est “prête à être publiée”.  
+
+Vous avez presque fini. La dernière étape consiste à vérifier et à déployer votre release après s’être assuré que vous avez pris soin de tous les détails .
+
+Le statut de votre application devrait maintenant être “en attente de publication”. En quelques heures, votre application sera disponible dans le Play Store.
+
+Si vous utilisez Goodbarber, vous trouverez un guide étape par étape facile à utiliser dans le back-end de votre application. De la création de votre application, en passant par le test de la version AdHoc, à l’importation de vos ressources applicatives et la publication de votre application, nous sommes là pour vous guider tout au long de l'avancement.
+
+Et si vraiment vous ne voulez pas le faire vous même , avec l’option GoodBarber s’en occupe , notre équipe fait tout le travail pour vous. L’un des avantages d’utiliser l’app builder de GoodBarber ;)
+
+La publication d'une application sur Google Play est un process simple qui peut être effectué assez rapidement. Cependant, le plus important est de développer une application Android de grande qualité.
+
+En utilisant GoodBarber, vous serez en mesure de créer une belle application, élégante et puissante qui vous aidera à dominer les milliers d'applications lancées sur le Play Store. 

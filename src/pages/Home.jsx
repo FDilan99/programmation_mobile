@@ -7,7 +7,7 @@ import { listeBouton } from '../util/listeBouton';
 import './Home.css';
 
 const Home = () => {
-  const [ afficher,setAfficher]=useState("Ionic Calculator")
+  const [ afficher,setAfficher]=useState("outil minimal")
   const [somme,setSomme]= useState(0)
   const [historique,setHistorique]= useState("__________")
 
@@ -25,8 +25,8 @@ const Home = () => {
          }
          else {
            setTimeout(()=>{
-             setHistorique(histTmp+operator)
-           },900)
+             setHistorique(histTmp + operator)
+           },100)
          }
   }
 
@@ -34,7 +34,7 @@ const Home = () => {
     try {
         // Effectuer le calcul  
         setSomme(eval(historique).length > 5 ? eval(historique).toFixed(4) : eval(historique))
-        setAfficher("Ionic Calculator")
+        setAfficher("outil minimal")
     } catch (e) {
 
     }
@@ -48,7 +48,7 @@ useEffect(() => {
 const reinitialiser = () => {
   setHistorique("__________")  
   setSomme(0)
-  setAfficher("Ionic Calculator")
+  setAfficher("outil minimal")
 }
 
 const effacer = () => {
