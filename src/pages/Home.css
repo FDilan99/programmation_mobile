@@ -1,0 +1,57 @@
+.footer {
+
+    padding-bottom: 2.9rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.consol {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    
+
+    background-color: rgba(99, 158, 226, 0.1);
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.global {
+    background-color: blueviolet;
+}
+
+
+.consol h1,
+.consol h4,
+.consol p {
+
+    margin: 0;
+    padding: 0;
+}
+
+.consol h1 {
+
+    font-size: 4rem;
+    flex-direction: wrap;
+}
+
+.title {
+    color: rgb(12, 194, 194);
+}
+
+.consol p {
+
+    font-size: 2rem;
+    color: rgb(163, 163, 163);
+}
+
+.consol h4 {
+
+    color: rgb(197, 197, 197);
+}

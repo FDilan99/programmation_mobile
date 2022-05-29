@@ -1,8 +1,22 @@
 .Special,.NonSpecial {
+    margin: 0.1rem;
+    padding: 1.0rem;
+    border-radius: 15px;
+    font-size: 1.0rem;
     text-align: center;
-    margin: 3px;
+}
+
+.Special {
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 58, 58);
+}
+
+.NonSpecial {
+    color: rgb(255, 255, 255);
+    background-color: blue;
 
 }
-.Special {
-    background-color: aqua;
-}
+   
+
+
+

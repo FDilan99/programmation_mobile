@@ -7,12 +7,12 @@ import { listeBouton } from '../util/listeBouton';
 import './Home.css';
 
 const Home = () => {
-  const [ afficher,setAfficher]=useState("")
+  const [ afficher,setAfficher]=useState("__________")
   const [somme,setSomme]= useState(0)
-  const [historique,setHistorique]= useState("")
+  const [historique,setHistorique]= useState("Ionic Calculator")
 
   const handleClick = (element,operator)=>{
-    const histTmp =historique.replace(" ", "") 
+    const histTmp =historique.replace("Ionic Calculator", "") 
          if (operator=== '='){
            calculer()
 
@@ -20,13 +20,13 @@ const Home = () => {
          else if (operator === 'CA'){
            reinitialiser()
          }
-         else if (operator ==='C'){
+         else if (operator ==='Del'){
           effacer()
          }
          else {
            setTimeout(()=>{
              setHistorique(histTmp+operator)
-           },100)
+           },500)
          }
   }
 
@@ -34,7 +34,7 @@ const Home = () => {
     try {
         // Effectuer le calcul  
         setSomme(eval(historique).length > 5 ? eval(historique).toFixed(4) : eval(historique))
-        setAfficher("")
+        setAfficher("Ionic Calculator")
     } catch (e) {
 
     }
@@ -46,9 +46,9 @@ useEffect(() => {
 
 
 const reinitialiser = () => {
-  setHistorique("")
+  setHistorique("__________")  
   setSomme(0)
-  setAfficher("")
+  setAfficher("Ionic Calculator")
 }
 
 const effacer = () => {
@@ -64,13 +64,13 @@ const affiche = () => {
   }
 }
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>calculatrice</IonTitle>
+    <IonPage  className='global'>
+      <IonHeader   >
+        <IonToolbar className='header'>
+          <IonTitle className='title'>calculatrice Ionic</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen  >
         <div className='consol'>
             {afficher && <h4>{afficher}</h4>}
             <p>{historique}</p>
@@ -78,7 +78,7 @@ const affiche = () => {
 
         </div>
       </IonContent>
-      <IonFooter>
+      <IonFooter className='footer'>
         {
           listeBouton.map((ligne,index)=>{
             return(
