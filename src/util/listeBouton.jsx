@@ -1,9 +1,8 @@
 export const listeBouton = [
     [
-     //   { val: "CA", special: true, col: 1, row: 1 },
+        { val: "CA", special: true, col: 1, row: 1 },
         { val: "(", special: true, col: 1, row: 1 },
         { val: ")", special: true, col: 1, row: 1 },
-        { val: "Del", special: true, col: 1, row: 1 },
         { val: "/", special: true, col: 1, row: 1 },
     ],
     [
@@ -26,10 +25,11 @@ export const listeBouton = [
         { val: "+", special: true, col: 1, row: 2 },
     ],
     [
-       
+        { val: "Del", special: true, col: 1, row: 1 },
         { val: "0", special: false, col: 1, row: 1 },
         { val: ".", special: false, col: 1, row: 1 },
         { val: "=", special: true, col: 1, row: 1 },
+        
     ],
 
 ]

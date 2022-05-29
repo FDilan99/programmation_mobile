@@ -7,12 +7,12 @@ import { listeBouton } from '../util/listeBouton';
 import './Home.css';
 
 const Home = () => {
-  const [ afficher,setAfficher]=useState("__________")
+  const [ afficher,setAfficher]=useState("Ionic Calculator")
   const [somme,setSomme]= useState(0)
-  const [historique,setHistorique]= useState("Ionic Calculator")
+  const [historique,setHistorique]= useState("__________")
 
-  const handleClick = (element,operator)=>{
-    const histTmp =historique.replace("Ionic Calculator", "") 
+  const handleClick = (e,operator)=>{
+    const histTmp =historique.replace("__________", "") 
          if (operator=== '='){
            calculer()
 
@@ -26,7 +26,7 @@ const Home = () => {
          else {
            setTimeout(()=>{
              setHistorique(histTmp+operator)
-           },500)
+           },900)
          }
   }
 
